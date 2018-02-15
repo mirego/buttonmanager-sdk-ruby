@@ -92,27 +92,3 @@ else
   @bm_create_button_response.Errors
 end
 ```
-
-## Samples App
-
-Add following line in rails `Gemfile`:
-
-```ruby
-gem 'paypal-sdk-buttonmanager'
-gem 'button_manager_samples', :git => "https://github.com/paypal/buttonmanager-sdk-ruby.git", :group => :development
-```
-
-Configure routes(`config/routes.rb`):
-
-```ruby
-mount ButtonManagerSamples::Engine => "/samples" if Rails.env.development?
-```
-
-To get default paypal configuration execute:
-
-```sh
-rails g paypal:sdk:install
-```
-
-Run `rails server` and check the samples.
-
