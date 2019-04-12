@@ -16,7 +16,7 @@ describe "ButtonManager" do
   end
 
   it "Validate ipn message" do
-    @api.ipn_valid?("Invalid").should be_false
+    @api.ipn_valid?("Invalid").should eq(false)
   end
 
 end
