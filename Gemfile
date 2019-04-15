@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'paypal-sdk-core', :git => "https://github.com/mirego/sdk-core-ruby.git", :tag => 'v0.3.5-mirego'
+gem 'paypal-sdk-core', :git => "https://github.com/mirego/sdk-core-ruby.git", :tag => 'v0.3.4-mirego'
 
 group :test do
   gem 'rspec'
